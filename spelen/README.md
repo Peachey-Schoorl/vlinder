@@ -6,7 +6,11 @@
     font-family: "Petit Formal Script", serif;
   }
 
-  h1 a {
+  h1:has(a):first-of-type {
+    display: none;
+  }
+
+  a {
     color: inherit;
   }
 </style>
